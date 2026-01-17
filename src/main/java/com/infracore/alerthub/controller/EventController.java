@@ -8,7 +8,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/v1")
-public class            EventController {
+public class EventController {
 
     @PostMapping("/events")
     public ResponseEntity<?> receiveEvent(@RequestBody Map<String, Object> body) {
